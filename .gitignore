@@ -1,0 +1,71 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+.venv/
+env/
+ENV/
+.ENV
+
+# ============================================
+# Sensitive Information (API Keys, Secrets)
+# ============================================
+config_secrets.json
+*.secrets.json
+.env
+.env.local
+*.key
+*.pem
+
+# ============================================
+# Database & Generated Data
+# ============================================
+# Vector database files
+qdrant_db/
+**/qdrant_db/
+
+# Parent chunk storage
+parent_store/
+**/parent_store/
+
+# Converted markdown files
+markdown/
+markdown_docs/
+**/markdown_docs/
+
+# ============================================
+# IDE & Editor
+# ============================================
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+*.log
+*.tmp
+*.temp
+.cache/
