@@ -3,9 +3,8 @@ title: Agentic Rag Portfolio
 emoji: 📉
 colorFrom: green
 colorTo: blue
-sdk: gradio
-sdk_version: 6.2.0
-app_file: app.py
+sdk: docker
+app_port: 7860
 pinned: false
 license: mit
 ---
