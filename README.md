@@ -1,3 +1,15 @@
+---
+title: Agentic Rag Portfolio
+emoji: 📉
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: 6.2.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 <p align="center">
   <a href="README.md">English</a> | 
   <a href="README_zh.md">中文</a>
@@ -162,4 +174,3 @@ The system is designed to be modular:
 
 ## 📄 License
 MIT License.
-
