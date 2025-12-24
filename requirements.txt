@@ -35,9 +35,6 @@ huggingface-hub==0.36.0
 humanfriendly==10.0
 hyperframe==6.1.0
 idna==3.11
-ipykernel==7.1.0
-ipython==9.7.0
-ipython_pygments_lexers==1.1.1
 jedi==0.19.2
 Jinja2==3.1.6
 joblib==1.5.2
