@@ -30,22 +30,6 @@ config_secrets.json
 *.pem
 
 # ============================================
-# Database & Generated Data
-# ============================================
-# Vector database files
-qdrant_db/
-**/qdrant_db/
-
-# Parent chunk storage
-parent_store/
-**/parent_store/
-
-# Converted markdown files
-markdown/
-markdown_docs/
-**/markdown_docs/
-
-# ============================================
 # IDE & Editor
 # ============================================
 .cursor/
