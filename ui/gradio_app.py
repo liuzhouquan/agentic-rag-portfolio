@@ -50,8 +50,8 @@ def create_gradio_ui():
                 - Please upload **non‑scanned, text-based PDF** files or **Markdown (.md)** files.
                 - Scanned PDFs and complex reports (heavy tables/charts, multi-column layouts, image-heavy content) are **not fully supported yet**.
                 - In future versions, we plan to support:
-                - **PaddleOCR** for scanned documents.
-                - **Vision-Language Models (VLMs)** for complex reports and image-heavy PDFs (see the PDF-to-Markdown notebook for details).
+                    - **PaddleOCR** for scanned documents.
+                    - **Vision-Language Models (VLMs)** for complex reports and image-heavy PDFs (see the PDF-to-Markdown notebook for details).
                 - Conversion and indexing may take some time. This feature is intended **for demo and experimentation only, not for production use**.
                 """
             )

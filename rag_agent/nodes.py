@@ -4,7 +4,7 @@ from .schemas import QueryAnalysis
 from .prompts import *
 
 def analyze_chat_and_summarize(state: State, llm):
-    if len(state["messages"]) < 4:
+    if len(state["messages"]) < 2: # test 4
         return {"conversation_summary": ""}
     
     relevant_msgs = [
